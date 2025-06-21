@@ -1,4 +1,4 @@
-# Gestion-de-tickets-de-soporte.
+# Gestion-de-tickets-de-soporte. excel
 🧾 Descripción del Dashboard - Gestión de Tickets de Soporte
 Este tablero permite monitorear y analizar el ciclo de vida de los tickets de soporte gestionados por el equipo, proporcionando visibilidad en tiempo real del estado de las solicitudes según país, solicitante, tipo de requerimiento y nivel de cumplimiento del SLA.
 
