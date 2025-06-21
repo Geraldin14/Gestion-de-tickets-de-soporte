@@ -4,34 +4,26 @@ Este tablero permite monitorear y analizar el ciclo de vida de los tickets de so
 
 🔍 Objetivos principales del dashboard:
 
-Visualizar el volumen de tickets recibidos por país y tipo de solicitud.
+* Visualizar el volumen de tickets recibidos por país y tipo de solicitud.
 
-Hacer seguimiento al cumplimiento del SLA de cada ticket.
+* Hacer seguimiento al cumplimiento del SLA de cada ticket.
 
-Identificar cuellos de botella en la atención mediante el estado actual de los tickets.
+* Identificar cuellos de botella en la atención mediante el estado actual de los tickets.
 
-Evaluar el desempeño de los procesadores (ProcessorName).
-
-Analizar campos adicionales y comentarios para identificar oportunidades de mejora o patrones frecuentes.
+* Evaluar el desempeño de los procesadores (ProcessorName).
 
 📊 Campos claves analizados:
 
-TicketID: Identificador único del ticket.
+- TicketID: Identificador único del ticket.
 
-Country: País desde el cual se origina la solicitud.
+- Country: País desde el cual se origina la solicitud.
 
-Requestor: Solicitante del ticket.
+- Requestor: Solicitante del ticket.
 
-Request Type: Tipo de requerimiento (soporte, cambio, incidente, etc.).
+- Request Type: Tipo de requerimiento (soporte, cambio, incidente, etc.).
 
-SLA: Nivel de servicio esperado.
+- SLA: Nivel de servicio esperado.
 
-Received On: Fecha de recepción del ticket.
+- Status: Estado actual del ticket (abierto, cerrado, en proceso).
 
-Status: Estado actual del ticket (abierto, cerrado, en proceso).
-
-ProcessorName: Encargado de gestionar la solicitud.
-
-Additional Field 1 y Additional Field 2: Campos personalizados relevantes para análisis.
-
-Comments: Observaciones o detalles adicionales del caso.
+- ProcessorName: Encargado de gestionar la solicitud.
