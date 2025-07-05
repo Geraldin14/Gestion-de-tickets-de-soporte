@@ -15,7 +15,7 @@ Este proyecto presenta un **dashboard funcional desarrollado en Microsoft Excel*
 
 ## 📈 Indicadores Clave (KPIs)
 
-- **Tickets totales**: 3.500  
+- **Tickets totales**: 3500 %
 - **Cumplimiento SLA**: 67%  
 - **Proporción de Requests**: 37%
 
@@ -55,7 +55,7 @@ Hoja de  cálculos y  dashboard visual:
 
 ## 📷 Vista del Dashboard
 
-![image](https://github.com/user-attachments/assets/1a62bb46-6a3c-491a-9a62-2e22a485e1a9)
+![image](https://github.com/user-attachments/assets/bba9ec41-9da5-49ff-a318-cab652017287)
 
 
 ---
