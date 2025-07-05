@@ -1,29 +1,75 @@
-# Gestion-de-tickets-de-soporte. excel
-🧾 Descripción del Dashboard - Gestión de Tickets de Soporte
-Este tablero permite monitorear y analizar el ciclo de vida de los tickets de soporte gestionados por el equipo, proporcionando visibilidad en tiempo real del estado de las solicitudes según país, solicitante, tipo de requerimiento y nivel de cumplimiento del SLA.
+# 🛠️ Dashboard de Gestión de Tickets de Soporte en Excel
 
-🔍 Objetivos principales del dashboard:
+Este proyecto presenta un **dashboard funcional desarrollado en Microsoft Excel** para el análisis y seguimiento del ciclo de vida de los tickets de soporte gestionados por un equipo técnico o de recursos humanos. Permite observar el cumplimiento de SLA, tipo de solicitudes, carga de trabajo por país y desempeño de los procesadores.
 
-* Visualizar el volumen de tickets recibidos por país y tipo de solicitud.
+---
 
-* Hacer seguimiento al cumplimiento del SLA de cada ticket.
+## 🎯 Objetivo del Dashboard
 
-* Identificar cuellos de botella en la atención mediante el estado actual de los tickets.
+- Visualizar y entender el comportamiento de los tickets por país y tipo de solicitud
+- Evaluar el estado actual de los tickets (On Hold, In Progress, Completed)
+- Medir el nivel de cumplimiento del SLA
+- Analizar el rendimiento individual de los procesadores asignados
 
-* Evaluar el desempeño de los procesadores (ProcessorName).
+---
 
-📊 Campos claves analizados:
+## 📈 Indicadores Clave (KPIs)
 
-- TicketID: Identificador único del ticket.
+- **Tickets totales**: 3.500  
+- **Cumplimiento SLA**: 67%  
+- **Proporción de Requests**: 37%
 
-- Country: País desde el cual se origina la solicitud.
+---
 
-- Requestor: Solicitante del ticket.
+## 📊 Visualizaciones Incluidas
 
-- Request Type: Tipo de requerimiento (soporte, cambio, incidente, etc.).
+- **Tickets por país** (gráfico de barras verticales)
+- **Tipos de solicitud (Request Type)** (gráfico de barras horizontales)
+- **Status de tickets** (gráfico de anillo)
+- **Desempeño por Processor** (gráfico de línea)
+- **Segmentadores** por: País, Tipo de solicitud, Processor, Status
 
-- SLA: Nivel de servicio esperado.
+---
 
-- Status: Estado actual del ticket (abierto, cerrado, en proceso).
+## 📁 Estructura del Archivo Excel
 
-- ProcessorName: Encargado de gestionar la solicitud.
+Hoja de Data : Base de datos principales
+Hoja de  cálculos y  dashboard visual:
+- **Zona izquierda**: contiene las **tablas dinámicas, resúmenes y fórmulas** necesarias para alimentar los gráficos.
+- **Zona derecha**: contiene las **visualizaciones**, **segmentadores** y **KPIs interactivos** que permiten al usuario explorar los datos de forma ágil.
+
+---
+
+## 🧾 Diccionario de Datos
+
+| **Columna**       | **Descripción**                                                |
+|-------------------|----------------------------------------------------------------|
+| Country           | País de origen de la solicitud                                 |
+| Request Type      | Tipo de requerimiento (Ej: Documentación, Ajuste salarial)     |
+| Processor Name    | Responsable del procesamiento del ticket                       |
+| SLA (%)           | Cumplimiento del acuerdo de nivel de servicio                  |
+| Status            | Estado del ticket: Completed, Work In Progress, On Hold        |
+| Ticket ID         | Identificador único del caso                                   |
+
+---
+
+## 📷 Vista del Dashboard
+
+![image](https://github.com/user-attachments/assets/1a62bb46-6a3c-491a-9a62-2e22a485e1a9)
+
+
+---
+
+## 👩‍💼 Autora
+
+**Geraldin Carriazo**  
+Analista de Datos | Visualización de Información | Reportes Automatizados  
+🔗 [LinkedIn](https://www.linkedin.com/in/geraldin-carriazo)
+
+---
+
+## ✅ Comentarios Finales
+
+Este tablero ha sido diseñado como herramienta de análisis estratégico y operativo. Gracias a su simplicidad, permite a cualquier usuario del equipo técnico, administrativo o de recursos humanos tener visibilidad clara del estado actual de las solicitudes, el cumplimiento de SLA y el rendimiento por país y analista.
+
+
